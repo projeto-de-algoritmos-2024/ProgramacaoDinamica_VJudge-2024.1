@@ -1,0 +1,91 @@
+Problem Statement
+
+Takahashi is standing at the coordinate
+
+0 on a number line.
+
+He will now perform
+N jumps. In the i-th jump (1≤i≤N), he moves ai​ or
+
+bi​ in the positive direction.
+
+Is it possible for him to be at the coordinate
+X after
+
+N jumps?
+Constraints
+
+1≤N≤100
+1≤ai​<bi​≤100(1≤i≤N)
+
+    1≤X≤10000
+    All values in input are integers.
+
+Input
+
+Input is given from Standard Input in the following format:
+
+N 
+
+X
+
+a1​ 
+
+b1​
+
+⋮
+
+aN​ 
+
+bN​
+
+Output
+
+If it is possible for Takahashi to be at the coordinate
+X after
+
+N jumps, print Yes; otherwise, print No.
+Sample Input 1
+Copy
+
+2 10
+3 6
+4 5
+
+Sample Output 1
+Copy
+
+Yes
+
+By moving
+b1​(=6) in the first jump and a2​(=4) in the second jump, he can be at the coordinate
+
+X(=10).
+Sample Input 2
+Copy
+
+2 10
+10 100
+10 100
+
+Sample Output 2
+Copy
+
+No
+
+He can be at the coordinate
+
+X(=10) after the first jump, but not after all jumps.
+Sample Input 3
+Copy
+
+4 12
+1 8
+5 7
+3 4
+2 6
+
+Sample Output 3
+Copy
+
+Yes
